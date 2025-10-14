@@ -9,17 +9,25 @@
 // Log totalFruit to the console.
 
 // Your code here:
-
+let apples = 8;
+let oranges = 5;
+let totalFruit = apples + oranges;
+console.log(totalFruit);
 
 
 // -----------------------------------------------
 
 // Challenge 2: Incrementing and Decrementing
-// Create a variable called score and set it to 10.
-// Use ++ to increase score by 1, then -- twice to decrease it by 2.
-// Log the final value of score.
+// Create a variable called score and set it to 10. Use ++ to make it equal 11.
+// Create a variable called penalty and set it to 101. Use -- to make it equal 98.
+// Log the final value of score + penalty.
 
 // Your code here:
+let score = 10;
+score++;
+score--;
+score--;
+console.log(score);
 
 
 
@@ -31,30 +39,41 @@
 // Log the final price.
 
 // Your code here:
-
+let price = 100;
+price *= 2;
+price /= 4;
+console.log(price);
 
 
 // -----------------------------------------------
 
 // Challenge 4: Modulus Practice
-// Create a variable called number and set it to 13.
-// Use % to find the remainder when number is divided by 5.
+// Create a variable called coins and set it to 13.
+// Use % to find the remainder when coins is divided by 5.
 // Store that remainder in a variable called remainder and log it.
 
 // Your code here:
-
-
+let coins = 13;
+let remainder = coins % 5;
+console.log(remainder);
 
 // -----------------------------------------------
 
 // Challenge 5: Putting It All Together
 // You start with 25 tickets for a raffle.
-// Each round, you spend 4 tickets to play.
 // Subtract 4 using -= and log your remaining tickets.
 // Then use % to check if your remaining tickets are an even number.
 // Log a message like "Even number!" or "Odd number!" based on the result.
 
 // Your code here:
+let tickets = 25;
+tickets -= 4;
+console.log("Tickets: " + tickets);
+if(tickets % 2 == 0) {
+    console.log("Even # of tickets!");
+} else {
+    console.log("Odd # of tickets!")
+}
 
 
 
