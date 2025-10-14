@@ -51,6 +51,7 @@ addTwoNumbers(100, -99);
 // Challenge 4: Fix the bug with let and var.
 // The below code is supposed to not have any name, if setName == "no".
 // Why doesn't it work? Find the reason and fix it!
+// for some reason. There is a good way and a bad way to fix this. Can you find them?
 
 let setName = "no";
 
@@ -59,8 +60,15 @@ if(setName == "yes") {
 }
 
 console.log(myName)
+function buySword() {
+}
 
-// ^ Fix the code above
+buySword();
+buyHat();
+console.log(gold) // <-- this should print 0, right?
+
+// ^ Fix the above code!
+
 
 
 
