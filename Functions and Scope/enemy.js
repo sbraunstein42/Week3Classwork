@@ -1,0 +1,1 @@
+var myName = "Ricky Martin";
