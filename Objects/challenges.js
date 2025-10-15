@@ -8,12 +8,8 @@
 // Log the whole object, then log just the brand.
 
 // Your code here:
-let car = {
-    brand : "Toyota",
-    model : "Batmobile",
-    year : 1999
-}
-console.log(car.brand);
+
+
 
 // -----------------------------------------------
 
@@ -22,8 +18,8 @@ console.log(car.brand);
 // Then log a message like "My car is now a 2023 Toyota!"
 
 // Your code here:
-car.year = 2000;
-console.log("My car is now a " + car.year + " " + car.brand + " " + car.model);
+
+
 
 
 // -----------------------------------------------
@@ -33,8 +29,8 @@ console.log("My car is now a " + car.year + " " + car.brand + " " + car.model);
 // Then log "My car is [color]" using the color you added.
 
 // Your code here:
-car.color = "black";
-console.log("My car is " + car.color);
+
+
 
 
 // -----------------------------------------------
@@ -45,19 +41,9 @@ console.log("My car is " + car.color);
 // Log each student's art score.
 
 // Your code here:
-let students = {
-    jimmy : {
-        math : "A+",
-        art : "F"
-    },
-    sova : {
-        math : "C",
-        art : "A-"
-    }
-}
 
-console.log(students.jimmy.art);
-console.log(students.sova.art);
+
+
 
 
 // -----------------------------------------------
@@ -69,18 +55,8 @@ console.log(students.sova.art);
 // Call addPoints() a few times to test it.
 
 // Your code here:
-let player = {
-    name : "Stu",
-    score : 66
-}
 
-player.addPoints = function(points) {
-    player.score += points;
-    console.log(player.name + " has " + player.score);
-}
 
-player.addPoints(3);
-player.addPoints(-5);
 
 
 
