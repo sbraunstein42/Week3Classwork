@@ -7,12 +7,7 @@
 // Change the size of the "myCanvas" style in styles.css to be 500px wide by 400px high.
 // Give it a "gray" border of 5 pixels.
 
-
-
-
-
-
-// -----------------------------------------------
+// No javascript for challenge 1.
 
 
 // Challenge 2: Draw a rectangle
